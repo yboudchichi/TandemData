@@ -1,7 +1,7 @@
 {
-  "Vibration": 3
-  "Vibration": 10
-  "Humidity": 40
-  "Humidity": 50
+  "Vibration_Cap_Beams": 12.5
+  "Vibration_Piles": 8.7
+  "Moisture_Deck_Slab": 40
+  "Moisture_Drainage": 55
 }
   
