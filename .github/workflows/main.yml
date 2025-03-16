@@ -17,25 +17,25 @@ jobs:
 
       - name: Send JSON Data to First URL
         run: |
-          curl -X POST "https://first-api-url.com" \
+          curl -X POST "https://:HaXcGgD1Sd-M7X0DblUEQw@tandem.autodesk.com/api/v1/timeseries/models/urn:adsk.dtm:GkmeWxvfQuiiJ1tcNz09RQ/streams/AQAAABSnD6AXo0xQseWnFbP95EsAAAAA" \
           -H "Content-Type: application/json" \
           -d @stream.json
 
       - name: Send JSON Data to Second URL
         run: |
-          curl -X POST "https://second-api-url.com" \
+          curl -X POST "https://:qji02tNhRjOtGzdf2OBwYw@tandem.autodesk.com/api/v1/timeseries/models/urn:adsk.dtm:GkmeWxvfQuiiJ1tcNz09RQ/streams/AQAAAFxrUkMk_URPukf-Eq_tWNoAAAAA" \
           -H "Content-Type: application/json" \
           -d @stream.json
 
       - name: Send JSON Data to Third URL
         run: |
-          curl -X POST "https://third-api-url.com" \
+          curl -X POST "https://:8npthhpvTtCCLUb25gezZw@tandem.autodesk.com/api/v1/timeseries/models/urn:adsk.dtm:GkmeWxvfQuiiJ1tcNz09RQ/streams/AQAAAK2Mj7rjJUB3vnseH1KvlMcAAAAA" \
           -H "Content-Type: application/json" \
           -d @stream.json
 
       - name: Send JSON Data to Fourth URL
         run: |
-          curl -X POST "https://fourth-api-url.com" \
+          curl -X POST "https://:e2EbshmlQPmnGcnSJqqlMA@tandem.autodesk.com/api/v1/timeseries/models/urn:adsk.dtm:GkmeWxvfQuiiJ1tcNz09RQ/streams/AQAAAISKZ_U2s0kuqUclgKvAdBEAAAAA" \
           -H "Content-Type: application/json" \
           -d @stream.json
 
